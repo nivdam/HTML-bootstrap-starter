@@ -1,0 +1,22 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": null
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "NLI-collection/**/*.scss",
+  ],
+  "liveSassCompile.settings.excludeList": [
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 4 versions",
+    "Explorer >= 10",
+    "ie >= 10",
+  ],
+  "liveSassCompile.settings.generateMap": true
+}
