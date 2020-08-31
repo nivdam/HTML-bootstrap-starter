@@ -1,0 +1,106 @@
+/**
+ * TYPOGRAPHY
+ */
+
+
+$_path: '../../fonts';
+$_open-sans: 'open-sans';
+
+/**
+ * OPEN SANS
+ */
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-light-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-light-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-light-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-light-webfont.svg#open_sans_hebrewlight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-lightitalic-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-lightitalic-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-lightitalic-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-lightitalic-webfont.svg#open_sans_hebrewlight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-regular-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-regular-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-regular-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-regular-webfont.svg#open_sans_hebrewregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-italic-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-italic-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-italic-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-italic-webfont.svg#open_sans_hebrewitalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bold-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bold-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bold-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bold-webfont.svg#open_sans_hebrewbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bolditalic-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bolditalic-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bolditalic-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-bolditalic-webfont.svg#open_sans_hebrewbold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabold-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabold-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabold-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabold-webfont.svg#open_sans_hebrewextra_bold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabolditalic-webfont.eot');
+  src: url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabolditalic-webfont.woff') format('woff'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabolditalic-webfont.ttf') format('truetype'),
+  url('#{$_path}/#{$_open-sans}/#{$_open-sans}hebrew-extrabolditalic-webfont.svg#open_sans_hebrewXBdIt') format('svg');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}

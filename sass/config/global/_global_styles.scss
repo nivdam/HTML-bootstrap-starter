@@ -1,0 +1,20 @@
+
+/*
+* Global
+**/
+svg {
+  width:  1em;
+  height: 1em;
+  font-size: inherit;
+  overflow: visible;
+  fill: currentColor;
+
+  [stroke-width]:not([stroke*="#"]) {
+    stroke: currentColor;
+  }
+  
+}
+
+img {
+  max-width: 100%;
+}

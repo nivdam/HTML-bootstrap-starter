@@ -1,0 +1,18 @@
+/**
+* Responsive breakpoints
+*/
+// $xs: 575px; 
+// $sm: 576px; // down -  767  
+// $md: 768px; // down -  991
+// $lg: 992px; // down -  1199
+// $xl: 1200px;
+// $Xxl: 1440px;
+
+/*** RTL websites ***/
+$direction           :rtl;
+$opposite-direction  :ltr;
+
+$start-direction     :right;
+$end-direction       :left;
+
+$transform-direction :-1;

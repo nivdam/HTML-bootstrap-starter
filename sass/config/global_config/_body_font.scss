@@ -1,0 +1,24 @@
+
+html {
+  @include responsive-font(1.5vw, 11px, 14px);
+  font-size: #{$htmlFontSize} + px;
+}
+
+
+
+body {
+  width: 100%;
+  font-size: 1em;
+  color: $text;
+  direction: $direction;
+  font-family: "Open Sans Hebrew", sans-serif;
+  text-align: $start-direction;
+  line-height: inherit;
+  // overflow-x: hidden;
+}
+
+@mixin selectionColor {
+  background-color: $yellow;
+}
+::selection { @include selectionColor(); /* WebKit/Blink Browsers */ }
+::-moz-selection { @include selectionColor(); /* Gecko Browsers */ }

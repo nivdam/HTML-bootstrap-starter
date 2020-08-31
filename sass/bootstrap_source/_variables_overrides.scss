@@ -1,0 +1,109 @@
+ /*!
+  * Theme Name: IAA
+  * Author: Niv Daminovich
+  * Version: 1.6
+  * Organization: Matrix
+  * Copyright 2019 The Matrix Authors
+  */
+
+
+// Variables
+//
+@import "../config/global_config/colors";
+// Color system
+
+$primary:       $yellow;
+$secondary:     $blue--night;
+$tertiary:      $link--cobalt;
+$gray:          $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $orange;
+$danger:        $red;
+$link_cobalt:   $link--cobalt;
+$light:         $blue--medium;
+$dark:          $blue--black;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":      $primary,
+    "secondary":    $secondary,
+    "tertiary":     $tertiary,
+    "gray":         $gray,
+    "success":      $success,
+    "info":         $info,
+    "warning":      $warning,
+    "danger":       $danger,
+    "link_cobalt":  $link_cobalt,
+    "light":        $light,
+    "dark":         $dark
+  ),
+  $theme-colors
+);
+
+
+
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:       theme-color("link_cobalt");
+$link-hover-color: lighten($link-color, 15%);
+
+
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+ 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1220px,
+  xxl: 1440px
+);
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 970px,
+  xl: 1200px,
+  // xxl: 1400px
+) ;
+
+
+
+// Components
+
+$box-shadow-sm: 0 rem(2) rem(8) 0 rgba($black, 0.14);
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width:           40px;
+
+// Buttons + Forms
+$input-btn-font-size: inherit;
+
+
+// $btn-border-radius: 0;
+
+
+
+/* $box-shadow: 0 0 2.0625rem 0.75rem rgba($black, 0.06); // 0 0 33px 12px
+$box-shadow-sm: 0 0 0.625rem 0.3125rem rgba($black, 0.06); // 0 0 10px 5px */

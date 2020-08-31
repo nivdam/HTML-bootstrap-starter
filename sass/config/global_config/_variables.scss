@@ -1,0 +1,74 @@
+/*
+ * VARIABLES
+**/
+
+
+
+// font size
+$fontSize: (
+  20,
+  18,
+  16,
+  15,
+  14,
+  12,
+);
+
+@each $text_size in $fontSize {
+  .text-#{$text_size} {
+    font-size: rem($text_size);
+  }
+}
+.text-inherit { font-size: inherit; }
+
+
+// font color
+$fontColor: (
+  'white': $white,
+  'text': $text,
+);
+
+@each $name, $color in $fontColor {
+  .fnt-#{$name} {
+    color: $color;
+  }
+}
+
+
+// font
+%fnt-light {
+  font-weight: 300;
+}
+%fnt-bold {
+  font-weight: 700;
+}
+%fnt-exteaBold {
+  font-weight: 800;
+}
+.fnt-normal {font-weight: normal}
+
+
+
+
+
+// bgs
+$bgColor: (
+  'white': $white,
+);
+
+@each $name, $color in $bgColor {
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+}
+
+
+/**
+* Responsive breakpoints
+*/
+// xs: 575px; 
+// sm: 576px; // down -  767  
+// md: 768px; // down -  991
+// lg: 992px; // down -  1199
+// xl: 1200px;
+// Xxl: 1440px;
