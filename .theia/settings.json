@@ -1,0 +1,11 @@
+{
+  "compile-hero": {
+    "disable-compile-files-on-did-save-code": false,
+    "notification-toggle": true,
+    "scss-output-directory": "../css",
+    "scss-output-toggle": true,
+    "generate-minified-css": true,
+    "generate-minified-css-only": true,
+    "watch": ["**/scss/**/*"]
+  }
+}
